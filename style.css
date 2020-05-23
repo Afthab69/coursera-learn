@@ -1,1 +1,56 @@
+h1{
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+*{
+	background-color: lavender;
+}
+p{
+	text-align-last: end;
+	font-weight: bold;
+	border: 2px solid black;
+}
+.a{
+	float: left;
+	border: 2px solid black;
+	box-sizing: border-box;
+	background-color: lavender;
+	font-family: "Lucida Console", Courier, monospace;
+}
+.b{
+	float: left;
+	border: 2px solid black;
+	box-sizing: border-box;
+	background-color: lavender;
+	font-family: "Lucida Console", Courier, monospace;
+}
+.c{
+	float: right;
+	border: 2px solid black;
+	box-sizing: border-box;
+	background-color: lavender;
+	font-family: "Lucida Console", Courier, monospace;
+}
+@media (min-width: 992px){
+	.a,.b,.c{
+		 width: 33.33%;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.a{
+		width: 50%;
+	}
+	.b{
+		width: 50%;
+		float: right;
+	}
+	.c{
+		width: 100%;
+	}
+}
+@media (max-width: 767px) {
+	.a,.b,.c{
+		width: 100%;
+	}
+}
 
